@@ -1,0 +1,7 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "payframe-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button (click)="dismiss()" color="dark"><ion-icon name="close" class="icon-lg"></ion-icon></ion-button>
+      </ion-buttons>
+    <ion-title>Card Payment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <div class="form-section" id="card-details"></div>
+    <ion-button (click)="pay()" color="primary" expand="block">Pay</ion-button>    
+</ion-content>
